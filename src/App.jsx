@@ -1,9 +1,9 @@
-import Counter from "./components/Counter";
+import ItemAdd from "./components/ItemAdd";
 
 const App = () => {
   return (
-    <div className="bg-gray-200 min-h-screen flex justify-center items-center">
-      <Counter />
+    <div className="bg-red-100 min-h-screen flex justify-center items-center">
+      <ItemAdd />
     </div>
   );
 };
